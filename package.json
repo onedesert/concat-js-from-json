@@ -10,6 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/davidpelayo/concat-js-from-json.git"
   },
+  "contributors": [
+    {
+      "name": "Yann Torres",
+      "email": "torres.yann@gmail.com"
+    },
+    {
+      "name": "David Pelayo",
+      "email": "hi@davidpelayo.com"
+    }
+  ],
   "keywords": [
     "package",
     "concat",
@@ -19,7 +29,7 @@
     "json",
     "npm"
   ],
-  "author": "David Pelayo & Yann",
+  "author": "David Pelayo hi@davidpelayo.com, Yann Torres torres.yann@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidpelayo/concat-js-from-json/issues"
