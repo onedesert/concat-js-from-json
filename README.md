@@ -1,5 +1,3 @@
-# gulp-concat-js-from-json
-
 Concat JS files from JSON Arrays
 ========================================
 
