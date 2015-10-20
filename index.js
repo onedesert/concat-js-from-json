@@ -8,6 +8,10 @@ function concatJsFromJson() {
 
 	var stream = new Stream.Transform({objectMode: true});
 
+	function parsePath(path) {
+		return Path.basename(path, Path.extname(path)) + '.js';
+	}
+
 	stream._transform = function(file, unused, callback) {
 		var files = JSON.parse(file.contents),
 			contents = '',
@@ -18,6 +22,8 @@ function concatJsFromJson() {
 		}
 
 		file.contents = new Buffer(contents);
+
+		file.path = Path.join(file.base, parsePath(file.relative));
 
 		callback(null, file);
 	}

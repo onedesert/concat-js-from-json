@@ -1,6 +1,6 @@
 {
   "name": "concat-js-from-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple tool to convert a JSON file with an array of JS file names onto a single concatenated JS file",
   "main": "index.js",
   "scripts": {
