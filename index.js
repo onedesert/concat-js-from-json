@@ -23,7 +23,7 @@ function concatJsFromJson() {
 
 		file.contents = new Buffer(contents);
 
-		file.path = Path.join(file.base, parsePath(file.relative));
+		file.path = file.path + '.js';
 
 		callback(null, file);
 	}
