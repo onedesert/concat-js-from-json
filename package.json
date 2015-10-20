@@ -19,7 +19,7 @@
     "json",
     "npm"
   ],
-  "author": "David Pelayo",
+  "author": "David Pelayo & Yann",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidpelayo/concat-js-from-json/issues"
