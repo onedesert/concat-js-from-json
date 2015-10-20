@@ -1,5 +1,5 @@
 {
-  "name": "gulp-concat-js-from-json",
+  "name": "concat-js-from-json",
   "version": "0.0.1",
   "description": "Simple tool to convert a JSON file with an array of JS file names onto a single concatenated JS file",
   "main": "index.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidpelayo/gulp-concat-js-from-json.git"
+    "url": "git+https://github.com/davidpelayo/concat-js-from-json.git"
   },
   "keywords": [
-    "gulp",
+    "package",
     "concat",
     "concatenate",
     "nodejs",
     "js",
     "json",
-    "gulpplugin"
+    "npm"
   ],
   "author": "David Pelayo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidpelayo/gulp-concat-js-from-json/issues"
+    "url": "https://github.com/davidpelayo/concat-js-from-json/issues"
   },
-  "homepage": "https://github.com/davidpelayo/gulp-concat-js-from-json#readme"
+  "homepage": "https://github.com/davidpelayo/concat-js-from-json#readme"
 }

@@ -3,7 +3,7 @@ var Stream = require('stream'),
 	fs = require('fs'),
 	Buffer = require('buffer').Buffer;
 
-function gulpConcatJsFromJson() {
+function concatJsFromJson() {
 	'use strict';
 
 	var stream = new Stream.Transform({objectMode: true});
@@ -25,4 +25,4 @@ function gulpConcatJsFromJson() {
 	return stream;
 };
 
-module.exports = gulpConcatJsFromJson;
+module.exports = concatJsFromJson;

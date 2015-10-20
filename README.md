@@ -27,4 +27,4 @@ This will generate a main.js file containing the file1.js, file2.js and file3.js
 License
 ----------
 
-gulp-concat-js-from-json is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+concat-js-from-json is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
